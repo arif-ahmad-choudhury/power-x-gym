@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import AdvanceGym from './components/AdvanceGym/AdvanceGym';
+import OurClasses from './components/OurClasses/OurClasses';
+import PricingPlans from './components/PricingPlans/PricingPlans';
+import YourGymMembership from './components/YourGymMembership/YourGymMembership';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <OurClasses></OurClasses>
+     <AdvanceGym></AdvanceGym>
+     <PricingPlans></PricingPlans>     
+     <YourGymMembership></YourGymMembership>
     </div>
   );
 }

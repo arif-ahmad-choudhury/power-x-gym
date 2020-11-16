@@ -1,0 +1,64 @@
+
+
+.section-title h1{
+    font-size: 25px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.title{
+    font-size: 25px;
+  font-weight: 700;
+  color:#FCD842;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.price-area{
+	background-color: #F8F8F8
+}
+.single-price {
+	text-align: center;
+	padding: 30px;
+    background-image:url("../pricebg1.jpg");
+	position: relative;
+	box-shadow: 1px 1px 10px #FCD842;
+}
+.price-name h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.price-name p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FCD842;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+.price-title h4 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #FCD842;
+  margin: 30px 0;
+}
+.price-title h1 span {
+  font-size: 24px;
+  font-weight: 400;
+  color: #717584;
+}
+
+.price-list ul li {
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	margin-bottom: 10px;
+	line-height: 35px;
+}
+.single-price a {
+	margin-top: 15px;
+	margin-left: 33px;
+}
